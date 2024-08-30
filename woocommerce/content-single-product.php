@@ -349,49 +349,7 @@ if ( post_password_required() ) {
         </div>
     </div>
 </section> -->
-<!-- SHOP THE LOOK -->
-<section>
-    <div class="container">
-        <div class="row pb-full pt-full">
-            <div class="col-12 col-md-4 col-lg-3 pb-quarter">
-                <h3>Shop<br> the look</h3>
-            </div>
-            <div class="col-12 col-md-8 col-lg-9">
-                <div class="w-full">
-                    <div class="swiper mySwiper-look">
-                        <div class="swiper-wrapper">
-                            <?php
-                                $loop = new WP_Query( array(
-                                    'post_type' => 'look',
-                                    'posts_per_page' => -1,
-                                    'orderby' => 'rand',
-                                    ),
-                                );
-                            ?>
-                            <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID(); ?>
-                            <!-- Hier kan je HTML plaatsen -->
-                            <div class="swiper-slide">
-                                <a href="<?php the_permalink();?>">
-                                    <div class="aspect-[12/16] w-full overflow-hidden mb-[8px]">
-                                        <img src="<?php echo get_the_post_thumbnail_url();?>" alt="" class="h-full min-h-full min-w-full object-cover object-center">
-                                    </div>
-                                    <p class="fwbold fca uppercase"><?php the_title();?></p>
-                                </a>
-                            </div>
-                            <?php endwhile; wp_reset_query(); ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- SHOP THE LOOK END -->
- <section>
-    <div class="container">
-        <hr>
-    </div>
-</section>
+
 <section>
     <div class="container">
         <div class="row pb-full pt-full">
