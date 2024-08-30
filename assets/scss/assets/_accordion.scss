@@ -1,0 +1,21 @@
+.accordion-button {
+    border: none;
+  
+    background-color: transparent;
+  
+    width: 100%;
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: space-between;
+  }
+  
+  .accordion-button:focus {
+    outline: none;
+  }
+  
+  button[aria-expanded="true"] svg {
+    transform: rotate(180deg);
+  }

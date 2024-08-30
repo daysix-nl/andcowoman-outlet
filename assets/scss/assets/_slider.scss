@@ -1,0 +1,9 @@
+.swiper.mySwiper-nieuwe-collectie {
+  overflow: initial !important;
+  visibility: visible;
+
+  //   media query
+  @media (min-width: 768px) {
+    overflow: hidden !important;
+  }
+}

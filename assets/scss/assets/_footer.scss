@@ -1,0 +1,109 @@
+.menu-footer-text a {
+  color: rgba($color: #fff, $alpha: 0.6);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.menu-footer-text a:hover {
+  color: rgba($color: #fff, $alpha: 1);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-footer img {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer-block {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer {
+  position: unset !important;
+
+  .footer-p-small {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  .footer-p-medium {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  h3 {
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    line-height: 22px !important;
+    font-family: "Poppins", sans-serif !important;
+  }
+}
+
+.footer-form {
+  form {
+    --searchButtonWidth: 120px;
+    overflow: hidden !important;
+    position: relative !important;
+    .gform-body {
+      width: 100% !important;
+
+      .ginput_container {
+        margin: 0 !important;
+        position: relative !important;
+
+        &::before {
+          content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='100%' viewBox='0 0 26 19'%3E%3Cg id='envelope' transform='translate(1 1)'%3E%3Crect id='Rectangle_2' data-name='Rectangle 2' width='24' height='17' rx='1.8' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3Cpath id='Combined_Shape' data-name='Combined Shape' d='M12,11.536.866,4.775A1.8,1.8,0,0,1,0,3.236V1.82A1.809,1.809,0,0,1,1.8,0H22.2A1.809,1.809,0,0,1,24,1.82V3.236a1.8,1.8,0,0,1-.866,1.539Z' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E%0A");
+          position: absolute;
+          left: 10px;
+          top: 14px;
+          z-index: 100;
+        }
+      }
+
+      #input_1_1 {
+        width: 100% !important;
+        position: relative;
+        z-index: 10;
+        background-color: #f2f2f2 !important;
+        border: solid 1px #000000 !important;
+        padding-left: 40px;
+
+        &::placeholder {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 24px;
+          font-family: "Poppins", sans-serif;
+          color: #000000;
+          opacity: 1;
+        }
+
+        &:not(:placeholder-shown) {
+          /* pull back the negative value of the width */
+          width: calc(100% - var(--searchButtonWidth)) !important;
+        }
+      }
+    }
+    .gform_footer {
+      position: absolute;
+      right: 0;
+      width: var(--searchButtonWidth);
+      /* animate it */
+      transition: 0.2s;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.background-img-contact-co {
+    background-image: url("/wp-content/themes/andcowoman-outlet/img/contact.jpg");
+    height: 30vh;
+    width: 100%;
+    padding: 0rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: #000 !important;
+}
+
+
+
+@media (max-width: 991.98px) {
+    .background-img-contact-co {
+        height: 20vh;
+    }
+}
+
+.flex-header-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightmenu {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.img-cart {
+    padding-left: 20px;
+}

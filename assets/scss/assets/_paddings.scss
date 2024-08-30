@@ -1,0 +1,448 @@
+$full-xs: 60px;
+$full-sm: 60px;
+$full-md: 70px;
+$full-lg: 80px;
+$full-xl: 80px;
+$full-xxl: 80px;
+
+$half-xs: 30px;
+$half-sm: 30px;
+$half-md: 35px;
+$half-lg: 50px;
+$half-xl: 50px;
+$half-xxl: 50px;
+
+$quarter-xs: 30px;
+$quarter-sm: 30px;
+$quarter-md: 30px;
+$quarter-lg: 30px;
+$quarter-xl: 30px;
+$quarter-xxl: 30px;
+
+$blocks-xs: 20px;
+$blocks-sm: 20px;
+$blocks-md: 20px;
+$blocks-lg: 20px;
+$blocks-xl: 20px;
+$blocks-xxl: 20px;
+
+$text-xs: 1rem;
+$text-sm: 1rem;
+$text-md: 1rem;
+$text-lg: 1rem;
+$text-xl: 1rem;
+$text-xxl: 1rem;
+
+// Padding top
+.pt-full {
+  padding-top: $full-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-top: $full-sm;
+     }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-top: $full-md;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-top: $full-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-top: $full-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-top: $full-xxl;
+    }
+}
+
+.pt-half {
+  padding-top: $half-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-top: $half-sm;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-top: $half-md;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-top: $half-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-top: $half-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-top: $half-xxl;
+    }
+}
+
+.pt-quarter {
+  padding-top: $quarter-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-top: $quarter-sm;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-top: $quarter-md;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-top: $quarter-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-top: $quarter-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-top: $quarter-xxl;
+    } 
+}
+
+.pt-blocks {
+  padding-top: $blocks-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-top: $blocks-sm;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-top: $blocks-md;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-top: $blocks-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-top: $blocks-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-top: $blocks-xxl;
+    } 
+}
+
+.pt-text {
+  padding-top: $text-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-top: $text-sm;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-top: $text-md;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-top: $text-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-top: $text-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-top: $text-xxl;
+    }   
+}
+
+// Padding bottom
+.pb-full {
+  padding-bottom: $full-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-bottom: $full-sm;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-bottom: $full-md;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-bottom: $full-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-bottom: $full-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-bottom: $full-xxl;
+    } 
+}
+
+.pb-half {
+  padding-bottom: $half-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-bottom: $half-sm;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-bottom: $half-sm;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-bottom: $half-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-bottom: $half-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-bottom: $half-xxl;
+    } 
+}
+
+.pb-quarter {
+  padding-bottom: $quarter-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-bottom: $quarter-sm;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-bottom: $quarter-md;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-bottom: $quarter-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-bottom: $quarter-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-bottom: $quarter-xxl;
+    }   
+}
+
+.pb-blocks {
+  padding-bottom: $blocks-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-bottom: $blocks-sm;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-bottom: $blocks-md;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-bottom: $blocks-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-bottom: $blocks-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-bottom: $blocks-xxl;
+    }   
+}
+
+.pb-text {
+  padding-bottom: $text-xs;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+      padding-bottom: $text-sm;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+      padding-bottom: $text-md;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-bottom: $text-lg;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+      padding-bottom: $text-xl;
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) { 
+      padding-bottom: $text-xxl;
+    }    
+}
+
+// extra
+.p-item {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  margin-left: 0px;
+  margin-right: 0px;
+      // Small devices (landscape phones, 576px and up)
+      @media (min-width: 576px) { 
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-left: 50px !important;
+      padding-right: 50px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+}
+
+.p-item-small {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  margin-left: 0px;
+  margin-right: 0px;
+      // Small devices (landscape phones, 576px and up)
+      @media (min-width: 576px) { 
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+      padding-left: 40px !important;
+      padding-right: 40px !important;
+      padding-top: 50px !important;
+      padding-bottom: 50px !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+}
+
+
+.p-item-small-b {
+
+  padding-bottom: 40px !important;
+  margin-left: 0px;
+  margin-right: 0px;
+      // Small devices (landscape phones, 576px and up)
+      @media (min-width: 576px) { 
+
+        padding-bottom: 40px !important;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+
+      padding-bottom: 50px !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+}
+
+.p-left-right {
+      @media (min-width: 992px) { 
+        padding-left: 70px;
+        padding-right: 70px;
+      }
+}
+
+.p-right {
+      @media (min-width: 1100px) { 
+        padding-right: 40px;
+      }
+}
+
+.value .p-right {
+
+    padding-right: 20px;
+  }
+
+
+.p-left {
+      @media (min-width: 1100px) { 
+        padding-left: 100px;
+      }
+}
+
+
+
+@media (min-width: 768px) { 
+  .p-con {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+ }
+
+ @media (min-width: 992px) { 
+  .p-con {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+ }
+
+ .con-no-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+ }
+
+ .no-padding{
+   padding: 0px !important;
+ }
+
+

@@ -1,0 +1,202 @@
+form.woocommerce-form-login {
+  border: 0px solid #d3ced2;
+  padding: 0px;
+  padding-top: 30px;
+  margin: 0;
+  text-align: left;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+#password,
+#username {
+  width: 300px;
+  height: 40px;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit {
+  margin-right: 0em;
+}
+
+form.login .woocommerce-button {
+  width: 300px;
+  margin-top: 6px;
+}
+
+
+.lost_password a {
+  text-decoration: underline;
+}
+
+
+.woocommerce-ResetPassword p:nth-of-type(1) {
+  padding-bottom: 25px;
+}
+
+form.woocommerce-ResetPassword .woocommerce-Button {
+  width: 300px;
+}
+
+form.woocommerce-ResetPassword input.woocommerce-Input {
+  width: 400px !important;
+  height: 40px !important;
+}
+
+label {
+  font-size: 16px !important;
+  line-height: 26px !important;
+}
+
+.woocommerce-ResetPassword {
+  padding-top: 50px;
+}
+
+.woocommerce-MyAccount-content p a {
+  text-decoration: underline;
+}
+
+.woocommerce-MyAccount-navigation ul a {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  background: #000;
+  color: #fff;
+  margin: 5px;
+}
+
+.woocommerce-MyAccount-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.woocommerce-MyAccount-navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+  .woocommerce-MyAccount-navigation ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .woocommerce-MyAccount-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .woocommerce-MyAccount-navigation ul a::after {
+    content: url(/wp-content/themes/andcowoman-outlet/img/icons/arrow-w.svg);
+    display: block;
+    padding-top: 5px;
+  }
+
+  .woocommerce-MyAccount-navigation ul a {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+
+form.woocommerce-EditAccountForm input {
+  height: 40px !important;
+}
+
+.form.woocommerce-EditAccountForm fieldset:nth-of-type(1) {
+  margin-top: 25px !important;
+}
+
+.woocommerce-MyAccount-content .woocommerce-error {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.woocommerce-MyAccount-content .container {
+  padding-left: 0px;
+  padding-bottom: 25px;
+}
+
+.woocommerce-MyAccount-navigation.scrolled {
+  position: unset;
+  top: 0;
+  width: 100%;
+}
+
+.woocommerce-MyAccount-content .woocommerce-error::after {
+  content: unset;
+  display: table;
+}
+
+.woocommerce-MyAccount-content em {
+  font-size: 12px;
+  line-height: 5px;
+}
+
+.woocommerce-MyAccount-content p:nth-child(3) {
+  padding-top: 25px;
+}
+
+input {
+  padding: 1px 6px;
+}
+
+.woocommerce-message {
+  border: 1px solid #00000020;
+}
+
+.woocommerce-MyAccount-content .woocommerce-message {
+  display: flex;
+  justify-content: space-between;
+}
+
+.woocommerce-MyAccount-content a.woocommerce-Button {
+  display: flex;
+  align-items: center;
+}
+
+.woocommerce-MyAccount-content .woocommerce-Message {
+  background: transparent;
+  border: 1px solid #00000020;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.woocommerce-MyAccount-content .woocommerce-Addresses {
+  padding-top: 25px;
+}
+
+.woocommerce-MyAccount-navigation ul a[href*="/downloads"] {
+  display: none;
+}
+
+.woocommerce-MyAccount-navigation ul a {
+  height: 47px !important;
+  transition: 0.3s;
+}
+
+.woocommerce-MyAccount-navigation ul a:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+form.login .form-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}

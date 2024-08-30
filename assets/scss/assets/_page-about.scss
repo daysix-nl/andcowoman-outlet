@@ -1,0 +1,84 @@
+.background-img-company-co{
+    height: 30vh;
+    width: 100%;
+    padding: 0rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.center-h2-about{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.background-img-planet-co{
+    height: 30vh;
+    width: 100%;
+    padding: 0rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: #fff !important;
+}
+
+.background-img-natural-co{
+    height: 30vh;
+    width: 100%;
+    padding: 0rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: #fff !important;
+}
+
+.background-img-about1-co{
+    height: 30vh;
+    width: 100%;
+    padding: 0rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: #000 !important;
+}
+
+@media (max-width: 991.98px) { 
+    .background-img-company-co{
+        height: 20vh;
+    }
+    
+    .center-h2-about{
+        height: 20vh;
+    }
+    
+    .background-img-planet-co{
+        height: 20vh;
+    }
+    
+    .background-img-natural-co{
+        height: 20vh;
+    }
+    
+    .background-img-about1-co{
+        height: 20vh;
+    }
+}
+
+.text-end{
+    text-align: end;
+}
+
+.img-icon-natural{
+    width: 100%;
+    max-width: 110px;
+}
+
+.img-icon-planet{
+    width: 100%;
+    max-width: 225px;
+}

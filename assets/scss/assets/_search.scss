@@ -1,0 +1,140 @@
+
+
+
+
+  .balk{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: transform 0.5s linear;
+    transform-origin: center;
+    transform-style: preserve-3D;
+    margin-left: 20px;
+    border-bottom: 1px solid #efefef !important;
+  }
+  
+  .balk-icon{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .balk-big{
+    width: 50vw;
+    transition: width .25s ease,transform .25s ease;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: auto 0;
+    max-width: 656px;
+    transition: transform 0.5s linear;
+    transform-origin: center;
+    transform-style: preserve-3D;
+    margin-left: 0px;
+  }
+  
+  .header-add{
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    transition-delay: 0.5s;
+  }
+  
+  .none-op{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    position: absolute;
+  }
+  
+  .none{
+    display: none !important;
+  }
+  
+  .none-fixed{
+  z-index: -1;
+  
+  }
+  
+  .navi{
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    transition: transform .6s ease .6s;
+    z-index: 1000;
+  }
+  
+  .fixed-navi{
+    position: fixed;
+      top: 35px;
+      transition: transform .6s ease .6s;
+      transform: translateY(-35px);
+      width: 100%;
+  }
+  
+  .scrolled.fixed-navi{
+    position: fixed;
+      top: 0px;
+      transition: transform .6s ease .6s;
+      transform: translateY(0px);
+      width: 100%;
+  }
+  
+  .scrolled{
+    position: fixed;
+  }
+  
+  .overlay-grey{
+    background: rgba(192,192,192,0.6);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    position: fixed;
+  }
+  
+  .button-search-add{
+    display: none;
+  }
+  
+  .add{
+    display: block !important;
+  }
+  
+  .img-close{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    right: 0px;
+  }
+  
+  .addop{
+    transition-delay: 1s;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .blok-margin{
+    height: 50px;
+    width: 200px;
+    position: fixed;
+  }
+
+
+  .img-close img{
+    width: 35px;
+  }

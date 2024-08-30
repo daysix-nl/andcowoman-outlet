@@ -1,0 +1,246 @@
+/*Fonts*/
+
+a {
+  color: unset;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.low {
+  text-transform: lowercase !important;
+}
+
+a:hover {
+  color: unset;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+* {
+  font-weight: 400;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+
+h1 {
+  font-size: 35px;
+  line-height: 45px;
+  font-family: 'Poppins', sans-serif;
+     /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media only screen and (min-width: 768px) { 
+      font-size: 40px;
+      line-height: 50px;
+     }
+
+    // Large devices (desktops, 992px and up)
+    @media only screen and (min-width: 992px) { 
+      font-size: 45px;
+      line-height: 55px;
+     }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media only screen and (min-width: 1200px) { 
+      font-size: 45px;
+      line-height: 55px;
+     }
+
+    // XX-Large devices (larger desktops, 1500px and up)
+    @media only screen and (min-width: 1500px) { 
+      font-size: 50px;
+      line-height: 60px;
+     }
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+     /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media only screen and (min-width: 768px) { 
+      font-size: 45px;
+      line-height: 55px;
+     }
+
+    // Large devices (desktops, 992px and up)
+    @media only screen and (min-width: 992px) { 
+      font-size: 48px;
+      line-height: 58px;
+     }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media only screen and (min-width: 1200px) { 
+      font-size: 48px;
+      line-height: 58px;
+     }
+
+    // XX-Large devices (larger desktops, 1500px and up)
+    @media only screen and (min-width: 1500px) { 
+      font-size: 48px;
+      line-height: 58px;
+     }
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+h3 {
+  font-size: 23px;
+  line-height: 33px;
+     /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media only screen and (min-width: 768px) { 
+      font-size: 28px;
+      line-height: 38px;
+     }
+
+    // Large devices (desktops, 992px and up)
+    @media only screen and (min-width: 992px) { 
+      font-size: 28px;
+      line-height: 38px;
+     }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media only screen and (min-width: 1200px) { 
+      font-size: 30px;
+      line-height: 40px;
+     }
+
+    // XX-Large devices (larger desktops, 1500px and up)
+    @media only screen and (min-width: 1500px) { 
+      font-size: 30px;
+      line-height: 40px;
+     }
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+h4 {
+  font-size: 25px;
+  line-height: 35px;
+     /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media only screen and (min-width: 768px) { 
+      font-size: 30px;
+      line-height: 40px;
+     }
+
+    // Large devices (desktops, 992px and up)
+    @media only screen and (min-width: 992px) { 
+      font-size: 35px;
+      line-height: 45px;
+     }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media only screen and (min-width: 1200px) { 
+      font-size: 35px;
+      line-height: 45px;
+     }
+
+    // XX-Large devices (larger desktops, 1500px and up)
+    @media only screen and (min-width: 1500px) { 
+      font-size: 40px;
+      line-height: 50px;
+     }
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+footer h6 {
+  font-size: 14px !important;
+  line-height: 24px !important;
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 14px !important;
+      line-height: 24px !important;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media only screen and (min-width: 768px) { 
+      font-size: 14px !important;
+      line-height: 24px !important;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media only screen and (min-width: 992px) { 
+      font-size: 14px !important;
+      line-height: 24px !important;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media only screen and (min-width: 1200px) { 
+      font-size: 14px !important;
+      line-height: 24px !important;
+    }
+
+    // XX-Large devices (larger desktops, 1500px and up)
+    @media only screen and (min-width: 1500px) { 
+      font-size: 14px !important;
+      line-height: 24px !important;
+    }
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 16px !important;
+  line-height: 26px !important;
+  font-weight: 300;
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 16px !important;
+      line-height: 26px !important;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media only screen and (min-width: 768px) { 
+      font-size: 16px !important;
+      line-height: 26px !important;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media only screen and (min-width: 992px) { 
+      font-size: 16px !important;
+      line-height: 26px !important;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media only screen and (min-width: 1200px) { 
+      font-size: 16px !important;
+      line-height: 26px !important;
+    }
+
+    // XX-Large devices (larger desktops, 1500px and up)
+    @media only screen and (min-width: 1500px) { 
+      font-size: 16px !important;
+      line-height: 26px !important;
+    }
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.col-top-header a {
+  font-size: 12px;
+}

@@ -1,0 +1,372 @@
+.background-img-locatie-co {
+    background-image: url("/wp-content/themes/andcowoman-outlet/img/locatie.jpg");
+    height: 30vh;
+    width: 100%;
+    padding: 0rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: #fff !important;
+}
+
+
+@media (max-width: 991.98px) {
+    .background-img-locatie-co {
+        height: 20vh;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #wpsl-search-wrap form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+#wpsl-search-btn {
+    height: 47px !important;
+    background: #000 !important;
+    color: #fff !important;
+    width: 150px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.wpsl-search {
+    padding: 0px 0px 0 0px;
+    background: #fff;
+}
+
+#wpsl-search-input {
+    height: 47px !important;
+}
+
+#wpsl-search-wrap input {
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0px;
+}
+
+
+.wpsl-input div label {
+    width: 100%;
+}
+
+.wpsl-input div label {
+    font-size: 30px !important;
+    font-weight: 700;
+    margin-bottom: 20px !important;
+}
+
+#wpsl-search-wrap form {
+    display: flex !important;
+}
+
+.wpsl-search-btn-wrap {
+    display: flex;
+    align-items: flex-end;
+}
+
+#wpsl-search-input {
+    width: 100% !important;
+}
+
+#wpsl-category,
+.wpsl-input,
+.wpsl-select-wrap {
+    margin-bottom: 0px !important;
+}
+
+#wpsl-search-btn,
+.wpsl-search-btn-wrap {
+    margin-right: 0px !important;
+}
+
+#wpsl-search-wrap #wpsl-search-btn {
+    margin-bottom: 0px;
+}
+
+@media (min-width: 992px) {
+    #wpsl-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .wpsl-search {
+        order: 1;
+        width: 44%;
+        margin-bottom: 0px;
+        padding: 0px 0px 0 0px;
+        background: #fff;
+    }
+
+    .wpsl-gmap-canvas {
+        order: 2;
+        width: 55% !important;
+    }
+
+    #wpsl-result-list {
+        order: 3;
+        width: 100% !important;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #wpsl-stores {
+        width: 55% !important;
+    }
+
+    #wpsl-search-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #wpsl-search-wrap form {
+        display: flex !important;
+    }
+
+    .wpsl-input {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .wpsl-input div label {
+        width: 100%;
+    }
+
+    #wpsl-search-btn {
+        height: 47px !important;
+        background: #000 !important;
+        color: #fff !important;
+        width: 150px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
+        border: none !important;
+        border-radius: 0px !important;
+    }
+
+    .wpsl-input div label {
+        font-size: 30px !important;
+        font-weight: 700;
+        margin-bottom: 20px !important;
+    }
+
+    .wpsl-input div {
+        width: 100% !important;
+    }
+
+    .wpsl-input div label {
+        width: 100% !important;
+    }
+
+    .wpsl-search-btn-wrap {
+        display: flex !important;
+        align-items: flex-end !important;
+    }
+
+    #wpsl-category,
+    .wpsl-input,
+    .wpsl-select-wrap {
+        margin-bottom: 0px !important;
+    }
+
+
+    #wpsl-search-btn {
+        margin-right: 0px !important;
+    }
+
+    .wpsl-input {
+        width: 100% !important;
+    }
+
+    #wpsl-search-input {
+        width: 100% !important;
+    }
+
+    #wpsl-search-wrap form {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    #wpsl-search-input {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #wpsl-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .wpsl-search {
+        order: 1;
+        width: 35%;
+        margin-bottom: 0px;
+        padding: 0px 0px 0 0px;
+        background: #fff;
+    }
+
+    .wpsl-gmap-canvas {
+        order: 2;
+        width: 60% !important;
+    }
+
+    #wpsl-result-list {
+        order: 3;
+        width: 100% !important;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #wpsl-stores {
+        width: 60% !important;
+    }
+
+    #wpsl-search-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #wpsl-search-wrap form {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .wpsl-input {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    #wpsl-search-input {
+        margin-bottom: 10px;
+    }
+
+
+
+    .wpsl-input div label {
+        width: 100%;
+    }
+
+    #wpsl-search-btn {
+        height: 47px !important;
+        background: #000 !important;
+        color: #fff !important;
+        width: 150px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
+        border: none !important;
+        border-radius: 0px !important;
+    }
+
+    .wpsl-input div label {
+        font-size: 30px !important;
+        font-weight: 700;
+        margin-bottom: 20px !important;
+    }
+
+    #wpsl-search-input {
+        height: 47px !important;
+    }
+
+    .wpsl-input div {
+        width: 100% !important;
+    }
+
+    .wpsl-input div label {
+        width: 100% !important;
+    }
+
+    .wpsl-search-btn-wrap {
+        display: flex !important;
+        align-items: flex-end !important;
+    }
+
+    #wpsl-category,
+    .wpsl-input,
+    .wpsl-select-wrap {
+        margin-bottom: 0px !important;
+    }
+
+
+    #wpsl-search-btn {
+        margin-right: 0px !important;
+    }
+
+    .wpsl-input {
+        width: 100% !important;
+    }
+
+    #wpsl-search-input {
+        width: 100% !important;
+    }
+
+}
+
+
+#wpsl-wrap {
+    @media (min-width: 992px) {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+#wpsl-wrap {
+    @media (min-width: 1200px) {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+#wpsl-wrap #wpsl-result-list li {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+#wpsl-stores::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+#wpsl-stores::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+#wpsl-result-list #wpsl-stores {
+    height: 1400px !important;
+}
+
+#wpsl-wrap.wpsl-store-below #wpsl-result-list li {
+    padding: 10px 10px 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wpsl-directions {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.wpsl-directions:hover {
+    transition: 0.3s;
+    opacity: 0.7;
+}

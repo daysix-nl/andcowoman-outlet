@@ -1,0 +1,200 @@
+.carousel-caption {
+    position: absolute;
+    top: 1.25rem;
+    left: 5%;
+    right: unset;
+    padding-top: 5%;
+    padding-bottom: 1.25rem;
+    text-align: unset;
+    bottom: unset;
+    width: 25vw;
+    color: #000;
+}
+
+.carousel-caption-2 {
+    position: absolute;
+    right: 5%;
+    left: unset;
+    top: 1.25rem;
+    padding-top: 5%;
+    padding-bottom: 1.25rem;
+    text-align: unset;
+    bottom: unset;
+    width: 25vw;
+    color: #000;
+}
+
+.carousel-caption-3 {
+    position: absolute;
+    right: 5%;
+    top: 1.25rem;
+    left: 5%;
+    right: unset;
+    padding-top: 5%;
+    padding-bottom: 1.25rem;
+    text-align: unset;
+    bottom: unset;
+    width: 25vw;
+
+}
+
+h2.donker {
+    color: #fff !important;
+      /* Small devices (portrait tablets and large phones, 600px and up) */
+      @media only screen and (min-width: 600px) {
+        color: #000 !important;
+    }
+}
+
+h2.licht {
+    color: #fff !important;
+}
+
+h3.donker {
+    color: #fff !important;
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      color: #000 !important;
+  }
+}
+
+h3.licht {
+    color: #fff !important;
+}
+
+button.donker {
+    color: #fff !important;
+      /* Small devices (portrait tablets and large phones, 600px and up) */
+      @media only screen and (min-width: 600px) {
+        color: #000 !important;
+    }
+}
+
+button.licht {
+    color: #fff !important;
+}
+button.licht:before {
+    background: #fff !important;
+}
+
+@media (max-width: 991.98px) { 
+    .carousel-caption {
+        width: 40vw;
+    }
+    
+    .carousel-caption-2 {
+        width: 40vw;
+    }
+    
+    .carousel-caption-3 {
+        width: 40vw;
+    }
+ }
+
+ @media (max-width: 575.98px) { 
+    .carousel-caption {
+        width: 60vw;
+    }
+    
+    .carousel-caption-2 {
+        width: 60vw;
+    }
+    
+    .carousel-caption-3 {
+        width: 60vw;
+    }
+}
+
+
+.caption-delay {
+    opacity: 0;
+    transition-delay: 0s !important;
+}
+
+.active .caption-delay {
+    opacity: 1;
+    transition-delay: 1s !important;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.carousel-control-prev-icon {
+    opacity: 0.5;
+    transition: 0.4s ease;
+}
+
+.carousel-control-next-icon {
+    opacity: 0.5;
+    transition: 0.4s ease;
+}
+
+#carouselExampleCaptions .carousel-control-next-icon:hover {
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+#carouselExampleCaptions .carousel-control-prev-icon:hover {
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: unset;
+    left: unset;
+    bottom: 30px;
+    display: block !important;
+    width: 15px;
+    text-align: center;
+    opacity: unset;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-prev {
+    right: 95px;
+}
+
+.carousel-control-next {
+    right: 48px;
+}
+
+.img-header{
+    width: 100%;
+    height: calc(100vh - 265px);
+            /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            height: calc(100vh - 265px);
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            height: calc(100vh - 265px);
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            height: calc(100vh - 210px);
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            height: calc(100vh - 210px);
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            height: calc(100vh - 210px);
+        }
+    padding: 0rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-height: 700px;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
